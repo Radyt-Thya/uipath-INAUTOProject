@@ -2,10 +2,10 @@
   "name": "Project",
   "projectId": "d79c0f03-85c2-4b0a-8828-388d24aaaa36",
   "description": "Project for INAUTO",
-  "main": "Excel_compiler.xaml",
+  "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.22.3]",
-    "UiPath.Mail.Activities": "[1.21.1]",
+    "UiPath.Mail.Activities": "[2.5.10]",
     "UiPath.MicrosoftOffice365.Activities": "3.6.2-preview",
     "UiPath.System.Activities": "[23.10.5]",
     "UiPath.Testing.Activities": "[23.10.1]",
@@ -45,6 +45,7 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
+    "modernBehavior": false,
     "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
@@ -52,6 +53,12 @@
     {
       "filePath": "Excel_compiler.xaml",
       "uniqueId": "f560e338-fe97-42ee-973a-85cc307f0513",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "de89f90a-01c2-49eb-b0e8-c7be61c5161f",
       "input": [],
       "output": []
     }
